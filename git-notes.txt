@@ -1,0 +1,9 @@
+Git notes
+
+git status - check the working tree
+git add - stage changes
+git commit - save changes locally
+git push - send commits to GitHub
+git pull - get updates from GitHub
+git log --oneline - view commit history
+git diff - inspect unstaged changes

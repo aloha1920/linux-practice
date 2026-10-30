@@ -1,0 +1,22 @@
+name: Calculator CI
+
+on:
+  push:
+    branches: [main, practice-bisect]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Test calculator
+        run: |
+          result=$(bash calculator.sh)
+          echo "Expected: 5"
+          echo "Actual: $result"
+          test "$result" = "5"

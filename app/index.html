@@ -1,22 +1,306 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Linux App</title>
+    <meta name="description" content="Portfolio professionnel - Informatique, Linux, Git, développement web et automatisation CI/CD.">
+    <meta name="theme-color" content="#0b1020">
+    <title>Portfolio | Informatique & DevOps</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <main class="container">
-        <h1>Hello from my Linux App!</h1>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#accueil" class="logo">Portfolio<span>.</span></a>
 
-        <p>This website is deployed using GitHub Actions.</p>
+            <div class="nav-links">
+                <a href="#apropos">À propos</a>
+                <a href="#competences">Compétences</a>
+                <a href="#projets">Projets</a>
+                <a href="#services">Services</a>
+                <a href="#contact" class="nav-contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-        <p>My first Continuous Deployment practice.</p>
+    <main>
+        <section class="hero container" id="accueil">
+            <div class="hero-content">
+                <span class="eyebrow">PORTFOLIO PERSONNEL</span>
 
-        <footer>
-            Built with Linux, Git and GitHub Actions.
-        </footer>
+                <p class="hello">Bonjour, bienvenue sur mon portfolio.</p>
+
+                <h1>
+                    Informatique,
+                    <span>Linux & DevOps.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Diplômé en informatique, je développe mes compétences
+                    en administration Linux, scripting Bash, développement
+                    web et automatisation avec GitHub Actions.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projets" class="button primary">
+                        Découvrir mes projets ↗
+                    </a>
+
+                    <a href="https://github.com/aloha1920"
+                       target="_blank" rel="noopener noreferrer"
+                       class="button secondary">
+                        Mon GitHub
+                    </a>
+                </div>
+
+                <div class="hero-tags">
+                    <span>Linux</span>
+                    <span>Git & GitHub</span>
+                    <span>HTML & CSS</span>
+                    <span>CI/CD</span>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="card-top">
+                    <span class="status-dot"></span>
+                    <span>MON PARCOURS</span>
+                </div>
+
+                <div class="code-window">
+                    <div class="code-header">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <pre><code><span class="code-purple">const</span> profile = {
+  domaine: <span class="code-green">"Informatique"</span>,
+  systeme: <span class="code-green">"Linux"</span>,
+  outils: [
+    <span class="code-green">"Git"</span>,
+    <span class="code-green">"GitHub"</span>,
+    <span class="code-green">"Bash"</span>
+  ],
+  objectif:
+    <span class="code-green">"DevOps Engineer"</span>
+};</code></pre>
+                </div>
+
+                <p class="card-caption">
+                    Apprendre · Construire · Progresser
+                </p>
+            </div>
+        </section>
+
+        <section class="section container" id="apropos">
+            <div class="section-heading">
+                <span class="eyebrow">01 — À PROPOS</span>
+                <h2>Qui suis-je ?</h2>
+            </div>
+
+            <div class="about-content">
+                <div>
+                    <h3>Passionné par la technologie et l'apprentissage continu.</h3>
+                </div>
+
+                <div>
+                    <p>
+                        Titulaire d'une Licence en Informatique, je m'intéresse
+                        particulièrement aux systèmes Linux, aux réseaux,
+                        au développement web et aux pratiques DevOps.
+                    </p>
+
+                    <p>
+                        J'apprends en réalisant des projets pratiques :
+                        gestion de versions avec Git, automatisation des tests,
+                        scripts Bash et publication de sites web.
+                    </p>
+
+                    <p>
+                        Mon objectif est de continuer à progresser,
+                        de développer des solutions utiles et de contribuer
+                        à des projets informatiques concrets.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills-section" id="competences">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">02 — COMPÉTENCES</span>
+                    <h2>Mes outils techniques</h2>
+                    <p>Des compétences développées à travers mes exercices et projets pratiques.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <span class="skill-number">01</span>
+                        <h3>Systèmes</h3>
+                        <p>Linux · Ubuntu · Terminal · Bash</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">02</span>
+                        <h3>Gestion de versions</h3>
+                        <p>Git · GitHub · Branches · Merge</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">03</span>
+                        <h3>Développement web</h3>
+                        <p>HTML5 · CSS3 · Responsive design</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">04</span>
+                        <h3>Automatisation</h3>
+                        <p>GitHub Actions · CI/CD · GitHub Pages</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="projets">
+            <div class="section-heading">
+                <span class="eyebrow">03 — PORTFOLIO</span>
+                <h2>Mes projets réalisés</h2>
+                <p>Quelques exemples de mon apprentissage pratique.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-icon">01</span>
+                        <span class="project-type">WEB</span>
+                    </div>
+
+                    <h3>Site web personnel</h3>
+
+                    <p>
+                        Création d'un site web statique avec HTML et CSS,
+                        puis publication avec GitHub Pages.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>GitHub Pages</span>
+                    </div>
+
+                    <a href="https://aloha1920.github.io/linux-practice/"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">
+                        Voir le site ↗
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-icon">02</span>
+                        <span class="project-type">CI / CD</span>
+                    </div>
+
+                    <h3>Pipeline de test automatique</h3>
+
+                    <p>
+                        Création d'un workflow GitHub Actions pour exécuter
+                        automatiquement un test sur un script Bash.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Bash</span>
+                        <span>GitHub Actions</span>
+                        <span>CI</span>
+                    </div>
+
+                    <a href="https://github.com/aloha1920/linux-practice/actions"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">
+                        Voir les workflows ↗
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-icon">03</span>
+                        <span class="project-type">LINUX</span>
+                    </div>
+
+                    <h3>Script Bash et arguments</h3>
+
+                    <p>
+                        Création d'un script permettant de lire des arguments,
+                        d'afficher leur nombre et de traiter les paramètres
+                        transmis dans le terminal.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Linux</span>
+                        <span>Bash</span>
+                        <span>Terminal</span>
+                    </div>
+
+                    <a href="https://github.com/aloha1920/linux-practice/blob/practice-cd/app/hello.sh"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">
+                        Voir le code ↗
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section services-section" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">04 — SERVICES</span>
+                    <h2>Ce que je peux proposer</h2>
+                    <p>Des prestations simples, adaptées à mes compétences actuelles.</p>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card">
+                        <h3>Sites vitrines simples</h3>
+                        <p>Création de pages web avec HTML et CSS.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <h3>Mise en page responsive</h3>
+                        <p>Adaptation de pages web aux mobiles et ordinateurs.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <h3>Publication web</h3>
+                        <p>Déploiement de sites statiques avec GitHub Pages.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container contact-section" id="contact">
+            <span class="eyebrow">05 — CONTACT</span>
+            <h2>Construisons quelque chose ensemble.</h2>
+
+            <p>
+                Vous avez un projet simple ou souhaitez échanger
+                sur une opportunité ? Retrouvez-moi sur GitHub.
+            </p>
+
+            <a href="https://github.com/aloha1920"
+               target="_blank" rel="noopener noreferrer"
+               class="button primary">
+                Me contacter sur GitHub ↗
+            </a>
+        </section>
     </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 — Portfolio personnel · Créé avec HTML, CSS et Linux.</p>
+            <a href="#accueil">Retour en haut ↑</a>
+        </div>
+    </footer>
 </body>
 </html>

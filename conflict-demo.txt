@@ -1,1 +1,2 @@
 Message from conflict A
+Message from conflict B

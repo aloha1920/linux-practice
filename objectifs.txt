@@ -1,1 +1,16 @@
-My goal is to become a Cloud DevOps and Cybersecurity Engineer. I am learning Git pull.
+CAREER GOAL / TANJONA
+
+Become a Cloud DevOps and Cybersecurity Engineer.
+
+Current practice / Asa efa nampiharina:
+Linux and Ubuntu WSL2, Git/GitHub basics, Docker fundamentals, and Kubernetes exercises covering workloads, configuration, services, ingress and storage.
+
+Next learning priorities / Laharam-pahamehana manaraka:
+1. Strengthen Git/GitHub and Docker.
+2. Continue with advanced Kubernetes.
+3. Learn GitHub Actions and CI/CD.
+4. Learn Terraform and Infrastructure as Code.
+5. Learn monitoring, logging and alerting.
+6. Study cloud fundamentals and deployment.
+
+These are learning goals. Items in the next-priorities list are not claimed as completed.

@@ -1,1 +1,16 @@
-My portfolio: Linux, Git, GitHub, Cloud, DevOps and Cybersecurity.
+PORTFOLIO / ASA SY FIANARANA
+
+Practical foundations reported:
+- Linux / Ubuntu WSL2
+- Git and GitHub
+- Docker Desktop / Docker Engine
+- Kubernetes: Pods, Deployments, ConfigMaps, Secrets, Services, Ingress and persistent storage
+
+Learning roadmap:
+- Advanced Kubernetes
+- GitHub Actions / CI/CD
+- Terraform / Infrastructure as Code
+- Prometheus / Grafana / Logging
+- Cloud fundamentals and deployment
+
+Evidence and exercise details are documented in README.md and the topic folders. This portfolio records learning practice; it does not claim production experience.

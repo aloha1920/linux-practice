@@ -1,2 +1,20 @@
-I am learning Linux, Git, GitHub, Cloud, DevOps and Cybersecurity.
-Next goal: Learn Docker and CI/CD.
+MY LEARNING SKILLS / Fahaiza-manao ianarana
+
+Practiced fundamentals / Fototra efa nampiharina:
+- Linux, Ubuntu on WSL2, terminal and Nano
+- Git and GitHub basic commands
+- Docker Desktop, Docker Engine, WSL integration and Docker contexts
+- Kubernetes exercises: Pods, Deployments, ConfigMaps, Secrets, Services, Ingress and persistent storage
+
+Still strengthening / Mbola hamafisina:
+- Linux administration, Git branching and collaboration
+- Dockerfiles, Compose, networks, volumes and image management
+- Advanced Kubernetes, troubleshooting and security
+
+Planned / Mbola ao amin'ny roadmap:
+- GitHub Actions and CI/CD
+- Terraform / Infrastructure as Code
+- Prometheus, Grafana, logging and alerts
+- Cloud fundamentals and deployment
+
+Note: These statuses reflect reported learning exercises, not a certification or production-level proficiency claim.
